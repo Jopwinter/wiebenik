@@ -14,14 +14,12 @@
 
 <br>
 <div style="margin: auto" class="card-panel">
-	<p style="font-size:30px;">Contact</p><br>
+	<p style="font-size:30px;">Contact:</p><br>
 
 <p style="white-space:pre">Telefoon:			06-24364417
 Mail:				<a href="mailto:jopdewinter2000@gmail.com">jopdewinter2000@gmail.com</a></p>
 
 </div>
-
-<button class="nextbuttons" onclick="window.location.href='ai.php'">Ga verder</button>
 
 <?php
   include('./parts/footer.html');

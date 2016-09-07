@@ -8,10 +8,10 @@
 
 <body id="body">
 
-<?php 
+	<?php 
 	include ("/parts/header.html");
 	?>
-		<br>
+	<br>
 <div style="margin: auto" class="card-panel">
 	<p style="font-size:30px;">Algemene informatie:</p><br>
 
@@ -22,9 +22,9 @@ Woonplaats:				Sliedrecht</p>
 
 </div>
 
-<button class="nextbuttons" onclick="window.location.href='ai.php'">Ga verder</button>
+<h1 style="text-align:center; "><button class="nextbuttons" onclick="window.location.href='om.php'">Ga verder</button></h1>
 
-<?php
+  <?php
   include('/parts/footer.html');
   ?>
 </body>

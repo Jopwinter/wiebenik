@@ -30,7 +30,7 @@
 
 </div>
 
-<button class="nextbuttons" onclick="window.location.href='ai.php'">Ga verder</button>
+<h1 style="text-align:center; margin-top: -146px"><button class="nextbuttons" onclick="window.location.href='contact.php'">Ga verder</button></h1>
 
 <?php
   include('./parts/footer.html');
