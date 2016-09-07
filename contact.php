@@ -21,6 +21,8 @@ Mail:				<a href="mailto:jopdewinter2000@gmail.com">jopdewinter2000@gmail.com</a
 
 </div>
 
+<h1 style="text-align:center; margin-top: 87px"><button class="nextbuttons" onclick="window.location.href='index.php'">Terug naar Home</button></h1>
+
 <?php
   include('./parts/footer.html');
   ?>
