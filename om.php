@@ -16,11 +16,11 @@
 <div style="margin: auto" class="card-panel">
 		<p style="font-size:30px;">Over mij als persoon:</p><br>
 
-		<p style="font-size:20px">Over mijzelf, laat ik maar beginnen met wat mijn doelen zijn. Mijn doel is om eerst deze opleiding<
+		<p style="font-size:20px">Over mijzelf, laat ik maar beginnen met wat mijn doelen zijn. Mijn doel is om eerst deze opleiding
 		(Applicatie ontwikkelaar, MBO) waarmee ik op het moment mee bezig ben af te ronden, en daarna zou ik
-		graag Technisch Informatica (HBO) willen gaan doen. Dan nu waar ik mijzelf in het dagenlijks leven mee
+		graag Technisch Informatica (HBO) willen gaan doen. Dan nu waar ik mijzelf in het dagelijks leven mee
 		bezig houd. Ik besteed graag tijd aan de waterkant om te vissen. Ik doe dit met mijn vrienden.
-		Ik heb ook een baan bij de hengelsport zaak <a href="http://www.harecohengelsport.nl/">Hareco</a> in Sliedrecht waar ik vaak ben. verder besteed ik
+		Ik heb ook een baan bij de hengelsport zaak <a href="http://www.harecohengelsport.nl/">Hareco</a> in Sliedrecht waar ik vaak ben. Verder besteed ik
 		tijd achter de computer en spreek ik graag af met vrienden.</p>
 </div>
 
