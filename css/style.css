@@ -1,0 +1,110 @@
+@font-face {
+    font-family: Airways;
+    src: url(../font/Airways.ttf);
+}
+
+body {
+		font-family: Segoe UI Light;
+		color: white;
+		margin: 80px 0 0 0 ;
+}
+
+#body {
+	background-position: center;
+	background-image: url(../images/achtergrond3.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1 {
+	font-family: Segoe UI Light;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.headerbuttons{
+	height:70px;
+	width:125px;
+	font-size: 20px;
+	background: white;
+	font-family: Segoe UI;
+	border: none;
+	color: #303030;
+	width: auto;
+	padding: 0px 15px 0px 15px;
+}
+
+.headerbuttons:hover {
+	background: #f7f7f7;
+}
+
+.right {
+	float:right;
+}
+
+.name {
+	font-family: Airways;
+	font-size: 30px;
+	width: auto;
+	margin-left:25px;
+}
+
+.header {
+	background: white;
+	position: fixed;
+	top: 0;
+	font-family: Segoe UI Light;
+	color: black;
+	width: 100%;
+	max-height: 70px;
+
+}
+
+.opties {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	font-family: Segoe UI;
+	color: black;
+	border: 3px solid #73AD21;
+}
+
+.card-panel {
+	background: #f7f7f7;
+	padding: 10px 10px 10px 10px;
+	font-size: 25px;
+	width: 900px;
+	height: auto;
+	border-radius: 5px;
+	color:black;
+	box-shadow: 0 2px 5px 0;
+	margin-bottom:20px;
+}
+
+.copyright {
+	color: #d2d2d2;
+	position: fixed;
+	bottom: 0;
+    right: 0px;
+    width: 1070px;
+}
+
+#welkom	{
+	color: #f2f2f2;
+	position: fixed;
+	top: 2;
+	right: 0px;
+    width: 1120px;
+}
+
+.nextbuttons {
+	font-size: 20px;
+	background: none;
+	font-family: Segoe UI;
+	color: #303030;
+	position: center;
+    width: 400px;
+    
+}	
