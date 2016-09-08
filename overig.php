@@ -16,7 +16,7 @@
 	<p style="font-size:30px;">Mijn kennis en vaardigheden:</p>
 
 	<p style="font-size:20px">Dan nu kort wat ik allemaal kan, ik zou een stylevolle website kunnen ontwikkelen<br>
-	en ik kan verschilenden dingen programeren.</p>
+	en ik kan verschilenden dingen programeren. Graag zou ik jquery willen leren omdat je daarmee mooie animaties kan maken en je website kan opmaken.</p>
 
 	<p style="font-size:30px;">Mijn studies:</p>
 	
