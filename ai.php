@@ -22,7 +22,7 @@ Woonplaats:				Sliedrecht</p>
 
 </div>
 
-<h1 style="text-align:center; "><button class="nextbuttons" onclick="window.location.href='om.php'">Ga verder</button></h1>
+<h1 style="text-align:center; margin-top: 48px;"><button class="nextbuttons" onclick="window.location.href='om.php'">Ga verder</button></h1>
 
   <?php
   include('/parts/footer.html');
