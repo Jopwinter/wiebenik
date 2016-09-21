@@ -16,7 +16,7 @@
 	<p style="white-space:pre">Naam:				        Jop de Winter
 Leeftijd:			        	16
 Woonplaats:			        Sliedrecht
-Telefoon nummer:		        06-24364417</p>
+Telefoon nummer:		        06-243644hoi17</p>
 
 </div>
   <?php
