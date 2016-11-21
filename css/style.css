@@ -1,35 +1,33 @@
+* {
+	margin:0;
+}
+
 @font-face {
     font-family: Airways;
     src: url(../font/Airways.ttf);
 }
 
 body {
-		font-family: Segoe UI Light;
-		color: white;
-		margin: 80px 0 0 0 ;
-}
-
-#body {
-	background-position: center;
-	background-image: url(../images/achtergrond3.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-h1 {
 	font-family: Segoe UI Light;
-	text-align: center;
+	background-color: white;
 }
 
-.inline {
-	display: inline-block;
+.header {
+	background: #FCFCFC;
+	position: fixed;
+	top: 0;
+	font-family: Segoe UI Light;
+	color: black;
+	margin-left: -10px;
+	width: calc(100% + 10px);
+	max-height: 70px;
 }
 
 .headerbuttons{
 	height:70px;
 	width:125px;
 	font-size: 20px;
-	background: white;
+	background: #FCFCFC;
 	font-family: Segoe UI;
 	border: none;
 	color: #303030;
@@ -47,63 +45,273 @@ h1 {
 	float:right;
 }
 
-.name {
+#headername {
 	font-family: Airways;
-	font-size: 30px;
+	height:70px;
+	font-size: 20px;
+	background: #FCFCFC;
+	padding-left: 15px;
+	border: none;
+	color: #303030;
 	width: auto;
-	margin-left:25px;
+	transition: 0.4s;
+	outline: none;
+
 }
 
-.header {
-	background: white;
-	position: fixed;
-	top: 0;
-	font-family: Segoe UI Light;
+#headername:hover {
+	background: rgba(243, 236, 248, 1)
+}
+
+#welkom {
+	text-align: center;
 	color: black;
+	font-weight: 100;
+}
+
+#main {
+	background: #2fc9ae;
+	height: 100vh;
 	width: 100%;
-	max-height: 70px;
-
+	padding-top: 150px;
 }
 
-.opties {
-	position: fixed;
-	top: 10px;
-	right: 10px;
-	font-family: Segoe UI;
-	color: black;
-	border: 3px solid #73AD21;
+#main1 {
+	background: white;
+	height: 100vh;
+	width: 100%;
+	padding-top: 100px;
+}
+
+#main2 {
+	background: #ECECEC;
+	height: 100vh;
+	width: 100%;
+	padding-top: 100px;
+}
+
+#main3 {
+	background: white;
+	height: 100vh;
+	width: 100%;
+	padding-top: 100px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-weight: 100;
+}
+
+p {
+	text-align: center;
+	font-size: 18px;
+	color: white;
 }
 
 .card-panel {
-	background: #f7f7f7;
+	background: #F0F0F0;
 	padding: 10px 10px 10px 10px;
 	font-size: 25px;
-	width: 800px;
+	width: 500px;
 	height: auto;
 	border-radius: 5px;
-	color:black;
-	box-shadow: 0 2px 5px 0;
+	color: black;
 	margin-bottom:20px;
+	margin: auto;
 }
 
-#welkom	{
-	color: #f2f2f2;
+.card-panel2 {
+	background: #F6F6F6;
+	padding: 10px 10px 10px 10px;
+	font-size: 25px;
+	width: 350px;
+	height: auto;
+	border-radius: 5px;
+	color: black;
+	margin-right: 30px;
+}
+
+#aitext {
+	color: black;
+}
+
+h2 {
+	color: black;
+	text-align: center;
+	font-weight: 100;
+	font-size: 25px;
+}
+
+#tableai {
+	margin: auto;
+	width: 100%;
+	font-size: 19px;
+}
+
+.kopjes {
+	margin-bottom: 70px;
 	text-align: center;
 }
 
-.nextbuttons {
-	font-size: 30px;
-	background: none;
-	border: none;
-	font-family: Segoe UI Light;
-	text-align: center;
-	vertical-align: middle;
-    width: 300px;
-    height: 70px;
-    color: #eaeaea;
-    transition: 0.4s;
+.omtext {
+	color: black;
+	font-size: 19px;
 }
 
-.nextbuttons:hover {
-	background: rgba(234,234,234,0.15);
+.zaad {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.text {
+	color: black;
+	font-size: 17px;
+}
+
+@media screen and (max-width: 1024px) {
+	* {
+		margin:0;
+	}
+
+	@font-face {
+    	font-family: Airways;
+    	src: url(../font/Airways.ttf);
+	}
+
+	body {
+		font-family: Segoe UI Light;
+		background-color: white;
+	}
+
+	
+
+	.right {
+		float:right;
+	}
+
+	#headername {
+		font-family: Airways;
+		height:70px;
+		font-size: 20px;
+		background: #FCFCFC;
+		padding-left: 15px;
+		border: none;
+		color: #303030;
+		width: auto;
+		transition: 0.4s;
+		outline: none;
+	}
+
+	#headername:hover {
+		background: rgba(243, 236, 248, 1)
+	}
+
+	#welkom {
+		text-align: center;
+		color: black;
+		font-weight: 100;
+	}
+
+	#main {
+		background: #2fc9ae;
+		height: 100vh;
+		width: 100%;
+		padding-top: 150px;
+	}
+
+	#main1 {
+		background: white;
+		height: 100vh;
+		width: 100%;
+		padding-top: 100px;
+	}
+
+	#main2 {
+		background: #ECECEC;
+		height: 100vh;
+		width: 100%;
+		padding-top: 100px;
+	}
+
+	#main3 {
+		background: white;
+		height: 100vh;
+		width: 100%;
+		padding-top: 100px;
+	}
+
+	h1 {
+		text-align: center;
+		color: white;
+		font-weight: 100;
+	}
+
+	p {
+		text-align: center;
+		font-size: 18px;
+		color: white;
+	}
+
+	.card-panel {
+		background: #F0F0F0;
+		padding: 10px 10px 10px 10px;
+		font-size: 25px;
+		width: 500px;
+		height: auto;
+		border-radius: 5px;
+		color: black;
+		margin-bottom:20px;
+		margin: auto;
+	}
+
+	.card-panel2 {
+		background: #F6F6F6;
+		padding: 10px 10px 10px 10px;
+		font-size: 25px;
+		width: 350px;
+		height: auto;
+		border-radius: 5px;
+		color: black;
+		margin-right: 30px;
+	}
+
+	#aitext {
+		color: black;
+	}
+
+	h2 {
+		color: black;
+		text-align: center;
+		font-weight: 100;
+		font-size: 25px;
+	}
+
+	#tableai {
+		margin: auto;
+		width: 100%;
+		font-size: 19px;
+	}
+
+	.kopjes {
+		margin-bottom: 70px;
+		text-align: center;
+	}
+
+	.omtext {
+		color: black;
+		font-size: 19px;
+	}
+
+	.zaad {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.text {
+		color: black;
+		font-size: 17px;
+	}
 }
