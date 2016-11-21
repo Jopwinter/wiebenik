@@ -24,10 +24,5 @@
 		tijd achter de computer en spreek ik graag af met vrienden.</p>
 </div>
 
-<h1 style="text-align:center; margin-top: -26px"><button class="nextbuttons" onclick="window.location.href='overig.php'">Ga verder</button></h1>
-
-<?php
-  include('./parts/footer.html');
-  ?>
 </body>
 </html>

@@ -12,13 +12,9 @@
 	include ("/parts/header.html");
 	?>
 
-	<p id="welkom" style="font-size: 30px">Welkom op mijn website</p><br><br><br><br><br><br>
+	<br><br><p id="welkom" style="font-size: 30px">Welkom op mijn website</p>
 
-	<h1 style="text-align:center; "><button class="nextbuttons" onclick="window.location.href='ai.php'">Ga verder</button></h1>
-
-  	<?php
-  	include('/parts/footer.html');
-  	?>
+	<h1><button class="nextbuttons" onclick="window.location.href='ai.php'">Ga verder</button></h1>
 
 </body>
 </html>
