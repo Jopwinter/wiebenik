@@ -7,20 +7,35 @@
     src: url(../font/Airways.ttf);
 }
 
+@font-face {
+	font-family: Segoe UI Light;
+	src: url(../font/SegoeUILight.ttf);
+}
+
+@font-face {
+	font-family: Segoe UI;
+	src: url(../font/SegoeUI.ttf);
+}
+
 body {
 	font-family: Segoe UI Light;
 	background-color: white;
 }
 
 .header {
-	background: #FCFCFC;
-	position: fixed;
-	top: 0;
-	font-family: Segoe UI Light;
-	color: black;
-	margin-left: -10px;
-	width: calc(100% + 10px);
-	max-height: 70px;
+		background: #FCFCFC;
+		position: fixed;
+		top: 0;
+		font-family: Segoe UI Light;
+		color: black;
+		margin-left: -10px;
+		width: calc(100% + 10px);
+		max-height: 70px;
+}
+
+
+.header2 {
+	display: none;
 }
 
 .headerbuttons{
@@ -56,7 +71,6 @@ body {
 	width: auto;
 	transition: 0.4s;
 	outline: none;
-
 }
 
 #headername:hover {
@@ -171,27 +185,24 @@ h2 {
 }
 
 @media screen and (max-width: 1024px) {
-	* {
-		margin:0;
+
+	.header {
+		display: none;
 	}
 
-	@font-face {
-    	font-family: Airways;
-    	src: url(../font/Airways.ttf);
-	}
-
-	body {
+	.header2 {
+		background: #FCFCFC;
+		position: fixed;
+		top: 0;
 		font-family: Segoe UI Light;
-		background-color: white;
+		color: black;
+		margin-left: -10px;
+		width: calc(100% + 10px);
+		max-height: 70px;
+		display: initial !important;
 	}
 
-	
-
-	.right {
-		float:right;
-	}
-
-	#headername {
+	#headername2 {
 		font-family: Airways;
 		height:70px;
 		font-size: 20px;
@@ -204,8 +215,15 @@ h2 {
 		outline: none;
 	}
 
-	#headername:hover {
+	#headername2:hover {
 		background: rgba(243, 236, 248, 1)
+	}
+
+	.material-icons {
+		font-size: 40px !important;
+		position: absolute;
+		right: 20px;
+		top: 17px;
 	}
 
 	#welkom {
